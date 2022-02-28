@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './video_item.module.css';
 
-const VideoItem = ({ video: { snippet } }) => ( // porps 안에 있는 video 안에있는 snippet
+const VideoItem = ({ video: { snippet } }) => ( // props 안에 있는 video 안에있는 snippet
     <li className={styles.container}>
         <div className={styles.video}>
             <img className={styles.thumnail}
