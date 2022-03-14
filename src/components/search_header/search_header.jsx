@@ -18,12 +18,12 @@ const SearchHeader = memo(({ onSearch }) => {
     return (
         <header className={styles.header}>
             <a href="https://102wy.github.io/youtube/" className={styles.logo}>
-                <img className={styles.img} src='/images/logo.png' alt='logo'></img>
+                <img className={styles.img} src='./images/logo.png' alt='logo'></img>
                 <h1 className={styles.title}>Youtube</h1>
             </a>
             <input ref={inputRef} className={styles.input} type="search" placeholder='Search...' onKeyPress={onKeyPress} />
             <button className={styles.button} type='submit' onClick={onClick}>
-                <img className={styles.buttonImg} src="/images/search.png" alt="search" />
+                <img className={styles.buttonImg} src="./images/search.png" alt="search" />
             </button>
         </header>
     );
